@@ -1,0 +1,18 @@
+<!--pages/login/login.wxml-->
+<view id="UP">
+  <text id="UPt1">登录注册</text>
+</view>
+
+<view id="welcome">
+  <h1>欢迎使用AIOT智能学习助手</h1>
+</view>
+<view class="log"></view>
+<view class="BTN">
+  <view id="reg">
+    <navigator url="/pages/registion/registion">注册</navigator>
+  </view>
+
+  <view id="login">
+    <navigator url="/pages/log/log">登录</navigator>
+  </view>
+</view>

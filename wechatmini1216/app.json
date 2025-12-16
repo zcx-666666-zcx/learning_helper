@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/registion/registion",
+    "pages/index/index",
+    "pages/learn/learn",
+    "pages/upl/upl",
+    "pages/user/user",
+    "pages/userDATA/userDATA",
+    "pages/log/log",
+    "pages/info/info",
+    "miniprogram/components/index/index",
+    "pages/agent/agent",
+    "pages/userprofile/userprofile"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "style": "v2",
+  "renderer": "skyline",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "defaultContentBox": true,
+      "tagNameStyleIsolation": "legacy",
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

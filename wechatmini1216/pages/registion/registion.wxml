@@ -1,0 +1,47 @@
+<!--pages/registion/registion.wxml-->
+<view id="UP">
+  <text id="UPt1">注册</text>
+</view>
+
+<view class="user">
+  <view id="user_reg">注册</view>
+  <view id="user_name">
+    <textarea type="text" name="username" placeholder="用户名" bindinput="nameHandle"/>
+  </view>
+  <view class="line2"></view>
+
+  <view id="user_password">
+    <textarea type="text" password="true" name="password" placeholder="密码" bindinput="passwordHandle"/>
+  </view>
+  <view class="line2"></view>
+  
+  <view id="user_surepassword">
+    <textarea type="text" password="true" name="sure_password" placeholder="确认密码" bindinput="sureHandle"/>
+  </view>
+  <view class="line2"></view>
+
+  <!-- 新增省份输入 -->
+  <view id="user_province">
+    <textarea type="text" name="province" placeholder="学习省份" bindinput="provinceHandle"/>
+  </view>
+  <view class="line2"></view>
+
+  <view id="user_city">
+    <textarea type="text" name="city" placeholder="学习城市" bindinput="cityHandle"/>
+  </view>
+  <view class="line2"></view>
+
+  <view id="user_age">
+    <textarea type="number" name="age" placeholder="小朋友年龄" bindinput="ageHandle"/>
+  </view>
+  <view class="line2"></view>
+
+  <view id="failed">请确保两次密码输入相同</view>
+  <view id="regist" bind:tap="regHandle">注册</view>
+</view>
+
+<view class="line1"></view>
+
+<view class="back">
+  <navigator url="/pages/login/login">返回</navigator>
+</view>

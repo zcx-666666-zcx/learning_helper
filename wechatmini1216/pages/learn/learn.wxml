@@ -1,0 +1,46 @@
+<view id="UP">
+  <text id="UPt1">学习专注</text>
+</view>
+
+<view class="container1">
+  <view id="learn_button" bind:tap="StartTimer">
+    <text id="stop">{{learn}}</text>
+  </view>
+  <view id="learn_time">
+    <text id="time">{{learn_time}}</text>
+  </view>
+</view>
+
+<view class="container2">
+  <view class="light">
+    <view id="light_title">
+      <text id="light_title_text">光照强度</text>
+    </view>
+    <view id="light_text">
+      <text id="light_text_text" style="color: {{lightStatus}};">{{lightText}}</text>
+    </view>
+  </view>
+
+  <view class="body">
+    <view id="body_title">
+      <text id="body_title_text">姿态检测</text>
+    </view>
+    <view id="body_text1">
+      <text id="body_text1_text" style="color: {{bodyStatus}};">{{bodyText}}</text>
+    </view>
+  </view>
+
+  <view class="eye">
+    <view id="eye_title">
+      <text id="eye_title_text">专注检测</text>
+    </view>
+    <view id="eye_text1">
+      <text id="eye_text1_text" style="color: {{eyeStatus}};">{{eyeText}}</text>
+    </view>
+  </view>
+</view>
+
+<view class="line1"></view>
+<view class="back">
+  <navigator url="/pages/index/index">返回</navigator>
+</view>

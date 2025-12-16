@@ -1,0 +1,25 @@
+<!--pages/log/log.wxml-->
+<view id="UP">
+  <text id="UPt1">登录</text>
+</view>
+
+<view class="login">
+
+  <view id="logUP">登录</view>
+  <view id="username">
+    <textarea type="text" name="username" placeholder="用户名" bindinput="login_usernameInput"/>
+  </view>
+  <view class="line2"></view>
+
+  <view id="password">
+    <textarea type="text" password="true" name="password" placeholder="密码" bindinput="login_passwordInput"/>
+  </view>
+  <view class="line2"></view>
+  
+  <view id="enter" bind:tap="Gologin">登录</view>
+</view>
+
+<view class="line1"></view>
+<view class="back">
+  <navigator url="/pages/login/login">返回</navigator>
+</view>

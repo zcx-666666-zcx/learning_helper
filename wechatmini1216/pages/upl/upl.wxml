@@ -1,0 +1,21 @@
+<!--pages/upl/upl.wxml-->
+<view id="UP">
+  <text id="UPt1">上传文件至数据库</text>
+</view>
+
+<view class="container">
+  <view id="text">上传资料（支持PDF格式）</view>
+  <view id="choose">
+    <view id="chooseFile" bind:tap="chooseFile">选择文件</view>
+    <view id="fileName">
+      <text>已选择：{{fileName}}{{fileSize}}</text>
+    </view>
+  </view>
+  <view id="progress">上传进度{{uploadProgress}}%</view>
+  <view id="upload" bind:tap="upload">上传</view>
+</view>
+
+<view class="line1"></view>
+<view class="back">
+  <navigator url="/pages/index/index">返回</navigator>
+</view>

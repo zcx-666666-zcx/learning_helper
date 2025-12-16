@@ -1,0 +1,58 @@
+<!--pages/userDATA/userDATA.wxml-->
+<view id="UP">
+  <text id="UPt1">学习数据</text>
+</view>
+
+<view class="data-section">
+  <view class="section-title">总体统计</view>
+  <view class="data-row">
+    <view class="data-item">
+      <text class="data-value">{{totalStudyTime}}</text>
+      <text class="data-label">总学习时长(分钟)</text>
+    </view>
+    <view class="data-item">
+      <text class="data-value">{{studyCount}}</text>
+      <text class="data-label">学习次数</text>
+    </view>
+  </view>
+</view>
+
+<view class="data-section">
+  <view class="section-title">专注度分析</view>
+  <view class="data-row">
+    <view class="data-item">
+      <text class="data-value">{{focusPercentage}}%</text>
+      <text class="data-label">平均专注度</text>
+    </view>
+    <view class="data-item">
+      <text class="data-value">{{fatigueCount}}</text>
+      <text class="data-label">疲劳次数</text>
+    </view>
+  </view>
+</view>
+
+<view class="data-section">
+  <view class="section-title">姿态分析</view>
+  <view class="data-row">
+    <view class="data-item">
+      <text class="data-value">{{goodPosturePercentage}}%</text>
+      <text class="data-label">良好姿态比例</text>
+    </view>
+    <view class="data-item">
+      <text class="data-value">{{poorPostureCount}}</text>
+      <text class="data-label">不良姿态次数</text>
+    </view>
+  </view>
+</view>
+
+<view class="chart-section">
+  <view class="section-title">学习趋势</view>
+  <view class="chart-placeholder">
+    <text>学习时长趋势图</text>
+  </view>
+</view>
+
+<view class="line1"></view>
+<view class="back">
+  <navigator url="/pages/index/index">返回</navigator>
+</view>

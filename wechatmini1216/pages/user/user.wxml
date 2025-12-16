@@ -1,0 +1,18 @@
+<!--pages/user/user.wxml-->
+<view id="UP">
+  <text id="UPt1">个人中心</text>
+</view>
+
+<view id="username">{{name}}</view>
+<view class="line2"></view>
+
+<view class="container">
+  <view id="learn_data"><navigator url="/pages/userDATA/userDATA">学习数据</navigator></view>
+  <view id="user_data"><navigator url="/pages/userprofile/userprofile">用户资料</navigator></view>
+  <view id="set">设置</view>
+</view>
+
+<view class="line1"></view>
+<view class="back">
+  <navigator url="/pages/index/index">返回</navigator>
+</view>

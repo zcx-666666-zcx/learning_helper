@@ -1,0 +1,70 @@
+/* pages/info/info.wxss */
+#UP{
+  width: 750rpx;
+  height: 200rpx;
+  background-color: rgb(106, 151, 103);
+  text-align: center;
+  line-height: 300rpx;
+  font-size: 35rpx;
+}
+
+.information{
+  width: 750rpx;
+  height: auto;
+  min-height: 1250rpx;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 40rpx 0;
+}
+
+#title{
+  margin: 0 50rpx;
+  width: 650rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  font-size: 38rpx;
+  font-weight: 800;
+}
+#text{
+  margin: 0 30rpx;
+  width: 690rpx;
+  height: 1000rpx;
+}
+
+.line1{
+  width: 750rpx;
+  height: 2rpx;
+  background-color: rgb(70, 70, 70);
+}
+.back{
+  width: 750rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 35rpx;
+}
+
+.name{
+  font-weight: 700;
+  font-size: 32rpx;
+  color: #2c3e50;
+  display: block;
+  padding-left: 20rpx;
+  border-left: 6rpx solid rgb(106, 151, 103);
+  background: linear-gradient(90deg, rgba(106, 151, 103, 0.1) 0%, rgba(106, 151, 103, 0) 100%);
+}
+
+.body{
+  font-size: 28rpx;
+  color: #5a6c7d;
+  display: block;
+  margin-bottom:12rpx;
+  padding: 20rpx;
+  background: #f8f9fa;
+  border-radius: 12rpx;
+  border: 1rpx solid #e9ecef;
+  line-height: 1.4;
+  text-align: justify;
+}

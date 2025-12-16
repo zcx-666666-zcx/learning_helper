@@ -1,0 +1,87 @@
+/* pages/userDATA/userDATA.wxss */
+#UP{
+  width: 750rpx;
+  height: 200rpx;
+  background-color: rgb(106, 151, 103);
+  text-align: center;
+  line-height: 300rpx;
+  font-size: 35rpx;
+}
+
+#UPt1 {
+  font-size: 35rpx;
+}
+
+.data-section {
+  margin: 20rpx;
+  padding: 30rpx;
+  background-color: rgb(243, 231, 218);
+  border-radius: 20rpx;
+}
+
+.section-title {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30rpx;
+  text-align: center;
+}
+
+.data-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.data-item {
+  text-align: center;
+  padding: 20rpx;
+}
+
+.data-value {
+  display: block;
+  font-size: 40rpx;
+  font-weight: bold;
+  color: rgb(106, 151, 103);
+  margin-bottom: 10rpx;
+}
+
+.data-label {
+  display: block;
+  font-size: 24rpx;
+  color: #333;
+}
+
+.chart-section {
+  margin: 20rpx;
+  padding: 30rpx;
+  background-color: rgb(243, 231, 218);
+  border-radius: 20rpx;
+}
+
+.chart-placeholder {
+  height: 300rpx;
+  background-color: #f9f9f9;
+  border-radius: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-placeholder text {
+  color: #999;
+  font-size: 28rpx;
+}
+
+.line1{
+  width: 750rpx;
+  height: 2rpx;
+  background-color: rgb(70, 70, 70);
+}
+
+.back{
+  width: 750rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 35rpx;
+}

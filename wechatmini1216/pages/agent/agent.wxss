@@ -1,0 +1,91 @@
+.UP{
+  width: 750rpx;
+  height: 200rpx;
+  background-color: rgb(106, 151, 103);
+  text-align: center;
+  line-height: 300rpx;
+  font-size: 35rpx;
+}
+/* 聊天窗口：固定高度 + 滚动 */
+.chat-window {
+  height: 1100rpx;
+  overflow-y: auto;
+  padding: 20rpx;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+}
+
+.message-item {
+  margin: 20rpx 0;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  max-width: 80%;
+  word-wrap: break-word;
+  position: relative;
+}
+
+/* 用户消息：黄色背景 */
+.user-message {
+  background-color: #95ec69;
+  margin-left: auto;
+  text-align: right;
+}
+
+/* AI 消息：蓝色背景 */
+.ai-message {
+  background-color: #ffffff;
+  margin-right: auto;
+  border: 1rpx solid #ddd;
+}
+
+/* 输入区域：固定在底部 */
+.input-group {
+  height: 90rpx;
+  display: flex;
+  padding: 10px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+}
+
+.input-group input {
+  width: 500rpx;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input-group button {
+  flex: 1;
+  width: 130rpx;
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 0 16px;
+}
+
+button{
+  display: flex;
+  align-items: center;  /* 垂直居中 */
+  justify-content: center; /* 水平居中 */
+  color: white;
+}
+
+.line2{
+  width: 750rpx;
+  height: 2rpx;
+  background-color: rgb(70, 70, 70);
+}
+
+.back{
+  width: 750rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 35rpx;
+}
+
+.line1{
+  width: 750rpx;
+  height: 4rpx;
+  background-color: rgb(136, 80, 80);
+}

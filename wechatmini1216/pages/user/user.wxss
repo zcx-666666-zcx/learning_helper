@@ -1,0 +1,82 @@
+/* pages/user/user.wxss */
+#UP{
+  width: 750rpx;
+  height: 200rpx;
+  background-color: rgb(106, 151, 103);
+  text-align: center;
+  line-height: 300rpx;
+  font-size: 35rpx;
+}
+
+#username{
+  margin: 20rpx;
+  width: 750rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  font-size: 45rpx;
+  font-weight: 1000;
+}
+.line2{
+  width: 750rpx;
+  height: 2rpx;
+  background-color: rgb(70, 70, 70);
+}
+
+.container{
+  width: 750rpx;
+  height: 1126rpx;
+  display: flex;
+  flex-direction: column;  /* 垂直排列 */
+  align-items: center;     /* 水平居中 */
+  justify-content: flex-start; /* 从上开始排列 */
+}
+#learn_data{
+  margin: 20rpx;
+  width: 660rpx;
+  height: 120rpx;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  font-size: 43rpx;
+  background-color: rgb(241, 241, 241);
+  border-radius: 25rpx;
+}
+#user_data{
+  width: 660rpx;
+  margin: 20rpx;
+  height: 120rpx;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  font-size: 43rpx;
+  background-color: rgb(241, 241, 241);
+  border-radius: 25rpx;
+}
+#set{
+  width: 660rpx;
+  margin: 20rpx;
+  height: 120rpx;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+  font-size: 43rpx;
+  background-color: rgb(241, 241, 241);
+  border-radius: 25rpx;
+}
+
+.line1{
+  width: 750rpx;
+  height: 2rpx;
+  background-color: rgb(90, 88, 88);
+}
+.back{
+  width: 750rpx;
+  height: 100rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 35rpx;
+}

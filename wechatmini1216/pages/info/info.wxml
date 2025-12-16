@@ -1,0 +1,25 @@
+<!--pages/info/info.wxml-->
+<view id="UP">
+  <text id="UPt1">功能说明</text>
+</view>
+
+<view class="information">
+  <view id="title">智能学习助手功能说明书</view>
+  <view id="text">
+    <text class="name">1.学习时长规则</text>
+    <text class="body">点击主页左上方圆形learn图案，开始学习，并进行学习时长计时。点击stop停止计时。该时间上传至个人中心，可在“我的”中查看，并对当日学习时长和总学习时长进行累加。中途因姿态/专注度检测导致的停止计时，同样进行以上时间处理办法。\n</text>
+    <text class="name">2.智能体功能</text>
+    <text class="body">通过大模型与知识库相结合，精确分析用户问题，准确给出回答。当用户询问时，通过扫描知识库中的内容进行整合，使回答更加贴合用户需求\n</text>
+    <text class="name">3.姿态检测功能\n</text>
+    <text class="body">开始学习后对人体上半身七个点位进行检测，进行计算人体坐姿的角度；当角度低于75°时或超过105°时会提示坐姿不端正\n</text>
+    <text class="name">4.专注度检测功能</text>
+    <text class="body">基于OpenCV和MediaPipe Face Mesh实现专注度检测，通过实时计算眼睛纵横比(EAR)判断闭眼状态，当连续闭眼超过5秒阈值时触发专注度不足警报，有效监测学习疲劳状态。\n</text>
+    <text class="name">5.亮度检测</text>
+    <text class="body">树莓派通过USB摄像头捕获环境图像后，首先将其转为灰度图，随后关闭自动曝光保障数据可靠性，通过计算全图灰度均值或中值得到环境亮度值，最终根据阈值：大于200过亮，小于100过暗，其余则是正常，输出亮度状态。\n</text>
+  </view>
+</view>
+
+<view class="line1"></view>
+<view class="back">
+  <navigator url="/pages/index/index">返回</navigator>
+</view>

@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<view id="UP">
+  <text id="UPt1">首页</text>
+</view>
+<view id="hello">{{daytime}}{{user}}</view>
+<view class="line1"></view>
+
+<view class="menu1">
+  <view id="start_learn"><navigator url="/pages/learn/learn"><image src="/images/开始学习.jpeg" mode="aspectFit" id="start"/></navigator></view>
+
+  <view class="learn_time">
+  <text id="all_learn_time">学习总时长<br/>{{All_learn_time}}</text>
+  <text id="today_learn_time">今日学习<br/>{{Today_learn_time}}</text>
+  </view>
+
+</view>
+
+<view id="info">
+    <navigator url="/pages/info/info">功能说明</navigator>
+</view>
+
+<view id="TIME">
+  <text id="time">{{currentTime}}</text>
+</view>
+
+<view class="menu2">
+  <view id="sentences">{{sentences}}</view>
+
+  <view id="upload"><navigator url="/pages/upl/upl"><image src="/images/上传.jpeg" id="up_img" mode="aspectFit"/></navigator></view>
+</view>
+<view class="line2">
+</view>
+
+<view class="table">
+   <button ><navigator url="/pages/agent/agent">进入 Agent 界面</navigator>
+  
+  </button>
+  <view id="user"><navigator url="/pages/userDATA/userDATA">学习数据</navigator></view>
+</view>
