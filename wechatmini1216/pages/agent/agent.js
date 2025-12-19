@@ -82,7 +82,7 @@ Page({
     const requestTask = wx.request({
       url: 'https://api.coze.cn/v3/chat',
       header: {
-        'Authorization': 'Bearer pat_O2gZs9Ha6Eo1InNqDv0nH1d7lK6a7itTGWYsz9ODH2SBrkcSSR8V0h51izSZOLE5',
+        'Authorization': 'Bearer pat_hFEJSGhxAHsdnpjuEXHDZJxuPNEhXVHFXCeezRkSQy1Zc056uQUQcBwuSYr4bKM3',
         'Content-Type': 'application/json'
       },
       method: 'POST',
